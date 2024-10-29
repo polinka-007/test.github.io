@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Manrope;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+    font-family: Manrope;
+    color: #000;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+/* Common */
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 0;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+.background{
+    
+    background-image: url(./img/bgbubbles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar a{
+    font-size: 20px;
+    color: #000;    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 14%;
+}
+.practics{
+    display: flex;
+    gap: 47px;
+}
+.wrapper{
+    padding: 0 14%;
+}
+.bottomline{
+    border-bottom: 1px solid #000;
+}
+.web_design{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 320px;
+}
+.web_design img.first-logo{
+    max-width: 1010px;
+}
+.web_design img.second-logo, img.third-logo{
+    max-width: 910px;
+}
+img.second-logo{
+    position: absolute;
+    top: 80px;
+    left: 140px;
+}
+img.third-logo{
+    position: absolute;
+    top: 180px;
+    right: 0;
+}
+.about_me{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.my-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.skills-section{
+    padding-top: 115px;
+    padding-bottom: 80px;
+}
+h2, h3{
+    font-weight: 500;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.skills-blocks h2{
+    margin-bottom: 80px;
+}
+.skill-block h3{
+    margin-right: 90px;
+    
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 15px;
+    width: 200px;
+}
+.skill-info{
+    font-weight: 300;
+    font-size: 16px;  
+    width: 345px;  
+}
+.skill-block{
+    display: flex;
+    align-items: center;
+}
+.skills-blocks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 115px;
+}
+.hard-skills{
+    grid-area: 1/1/3/2;
+}
+.top-flower{
+    grid-area: 1/2/2/3;
+}
+.bottom-flower{
+    grid-area: 3/1/4/2;
+}
+.soft-skills{
+    grid-area: 2/2/4/3;
+}
+.hard-skills-blocks, .soft-skills-blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.exp{
+    margin-top: 114px;
+    margin-bottom: 114px;
+}
+.experience-cosmetics{
+    display: flex;
+    gap: 20px;
+}
+.cosmetic-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 280px;
+    align-self: end;
+}
+.cosmetic-photo{
+    display: flex;
+    gap: 20px;
+}
+.wrapper-middle-top{
+    padding: 114px 0px;
+}
+.experience-photography{
+    display: flex;
+    gap: 20px;
+}
+.photo-images{
+    display: flex;
+    gap: 20px;
+}
+.photo-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 280px;
+    align-self: end;
+}
+.wrapper-middle-bottom{
+    padding:114px 0px 220px;
+}
+.footer{
+    background: rgba(245, 129, 254, 0.29);
+    padding: 110px 0;
+
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+}
+.footer-logo{
+    font-weight: 400;
+    font-size: 20px;
+   
+}
+.contacts, .contacts-detils{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+}
+.contacts-detils{
+    align-items: end;
+}
+
+.about_practics{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 25px;
+    padding: 120px 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 64px;
+}
+.pr_4{
+    grid-area: 1/1/2/2;
+}
+.animation-bg{
+    width: 894px;
+    height: 503px;
+}
+.animation{
+    grid-area: 2/1/5/2;
+    margin-top: 100px;
+}
+.pracric_info{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    grid-area: 3/2/5/3;
+    align-self: end;
+}
+.pink_flower{
+    grid-area: 1/2/3/3;
+}
+.pink_flower img{
+    width: 365px;
+    height: 303px;
+}
+.animation-bg iframe{
+    width: 100%;
+    height: 100%;
+}
+.process-sect{
+    padding: 120px 0 0;
+
+}
+.process-blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 95px;
+    margin-top: 73px;
+}
+.proc1{
+    grid-area: 1/1/2/2;
+}
+.proc2{
+    grid-area: 2/2/3/3;
+}
+.proc3{
+    grid-area: 3/1/4/2;
+}
+.proc4{
+    grid-area: 1/3/2/4;
+}
+.proc5{
+    grid-area: 3/3/4/4;
+}
+.process{
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.process p{
+    max-width: 155px;
+}
+.process h3{
+    font-size: 64px;
+    font-weight: 300;
+    margin-left: 118px;
+}
+.impress-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.impress-info{
+    max-width: 550px;
+    font-size: 18px;
+}
+.animation-bgbook{
+    width: 564px;
+    height: 792px;
+    
+}
+
+.animation-bgbook iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+.animation-bg-bones{
+    width: 894px;
+    height: 511px;
+}
+.animation-bg-bones iframe{
+    width: 100%;
+    height: 100%;
+}
